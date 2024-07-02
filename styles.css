@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), darkblue);
+}
+
+#content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.button {
+
+}
