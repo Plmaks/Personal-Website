@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(180deg, rgb(0, 0, 30), darkblue);
+    overflow: hidden;
+    color: darkcyan;
+}
+
+#content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+}
+
+#button-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border-radius: 10%;
+    color: darkcyan;
+    border: 1.5px solid darkcyan;
+    background-color: black;
+    min-height: 50px;
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#filler {
+    padding-top: 20%;
+}
