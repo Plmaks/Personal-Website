@@ -1,0 +1,9 @@
+body {
+    background-color: darkcyan;
+}
+
+.wynik {
+    background-color: gray;
+    color: red;
+    font-size: 62px;
+}

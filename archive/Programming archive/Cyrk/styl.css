@@ -1,0 +1,13 @@
+body {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+}
+
+#rekordy {
+    background-color: aquamarine;
+    margin: 5px;
+    border: 2px solid darkcyan;
+}

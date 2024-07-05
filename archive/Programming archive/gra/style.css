@@ -1,0 +1,39 @@
+@keyframes anim1 {
+    0%, 100% {
+        transform: rotate3d(0, 0, 0, 0deg)
+    }
+    50% {
+        transform: rotate3d(360, 0, 0, 360deg)
+    }
+}
+
+#elem_res {
+    font-size: 50px;
+    animation: anim1 2s infinite;
+    border: none;
+    background-color: transparent;
+}
+
+#shop {
+    border: 2px solid cyan;
+    margin-left: 0;
+}
+
+body > * {
+    margin-left: 50%;
+}
+
+#chicken {
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+}
+
+#buttoner {
+    background-color: red;
+    color: aliceblue;
+}
+
+#licznik {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

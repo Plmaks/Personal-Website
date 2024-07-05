@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>Kalkulator Pola</h1>
+    <br>
+    <input type="number" id="inp1" placeholder="A">
+    <input type="number" id="inp2" placeholder="B">
+    <input type="number" id="inp3" placeholder="H">
+    <select id="opcje" onchange="func2()">
+        <option value=""></option>
+        <option value="k">kwadrat</option>
+        <option value="p">prostokąt</option>
+        <option value="t">trójkąt</option>
+        <option value="r">romb</option>
+        <option value="t2">trapez</option>
+        <option value="r2">równoległobok</option>
+    </select>
+    <button onclick="func1()">Oblicz</button>
+    <br>
+    <p id="wynik" class="wynik">Wynik:</p>
+</body>
+</html>

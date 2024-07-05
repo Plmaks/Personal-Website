@@ -1,0 +1,71 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    left: auto;
+    background-color: brown;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.HELLO {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 240px;
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    top: 5%;
+    left: 15%;
+    position: absolute;
+    background-color: darkcyan;
+    text-shadow: 10px 5px darkgray,
+                 15px 5px darkcyan,
+                 20px 5px darkgreen,
+                 25px 5px darkgoldenrod,
+                 30px 5px darkmagenta;
+}
+
+.Lista {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: red;
+    color: darkred;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+    list-style-position: inside;
+    text-shadow: 5px 5px red,
+                 10px 5px darkblue;
+}
+
+.youtube {
+    position: absolute;
+    top: 3000px;
+}
+
+.footer {
+    background-color: aquamarine    ;
+}
+
+.design {
+    position: absolute;
+    top: 1000px;;
+    left: 35%;
+    width: 500px;
+    width: 500px;
+}

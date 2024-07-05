@@ -1,0 +1,34 @@
+#Ogólna {
+    visibility: hidden;
+}
+
+#Ryczałtu {
+    visibility: hidden;
+}
+
+#Liniowa {
+    visibility: hidden;
+}
+
+.kasa {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    visibility: hidden;
+}
+
+.brak_kasy {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    visibility: hidden;
+}
+
+body {
+    background-color: gray;
+}
+
+img {
+    width: 600x;
+    height: 800px;
+}

@@ -1,0 +1,3 @@
+bold
+violet
+background: kwadrat 200x200 z background color różowym I borderze zielonym, który jest szary 20x20 pikseli

@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(180deg, rgb(0, 0, 30), darkblue);
+    overflow: hidden;
+    color: darkcyan;
+    list-style-position: inside;
+    text-align: center;
+}
+
+button {
+    border-radius: 10%;
+    color: darkcyan;
+    border: 1.5px solid darkcyan;
+    background-color: black;
+    min-height: 50px;
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+#navbar {
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#header {
+    text-align: center;
+}
+
+#div-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#essays, #art, #programming {
+    display: flex;
+    flex-direction: column;
+    border: 5px teal solid;
+    border-collapse: collapse;
+    width: 30%;   
+    text-align: center;
+}
+
+#essays, #programming {
+    margin: 3.33%;
+}
+
+#art {
+    margin: 3.34%;
+}
+
+#filler {
+    margin-top: 4%;
+}

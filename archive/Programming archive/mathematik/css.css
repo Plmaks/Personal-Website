@@ -1,0 +1,11 @@
+body {
+    background-color: darkcyan;
+}
+
+button, input, select, label {
+    font-size: 20px;
+}
+
+.obsolete {
+    visibility: hidden;
+}

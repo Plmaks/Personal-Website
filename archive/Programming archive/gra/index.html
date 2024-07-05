@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-color: black; color: cyan;">
+    <h1 id="licznik">0</h1>
+    <button onclick="add()">CLICK ME</button>
+    <br>
+    <br>
+    <div id="farm">
+    </div>
+    <div id="res">
+    </div>
+    <br>
+    <div id="shop">
+        <h1>Witaj w sklepie!</h1>
+        <div style="border: 1px solid blue;">
+            <button onclick="upgrade(1)">Multigrade 1</button>
+            <p id="cost1">10</p>
+        </div>
+        <div style="border: 1px solid blue;">
+            <button onclick="upgrade(2)">Multigrade 2</button>
+            <p id="cost1">25</p>
+        </div>
+        <div style="border: 1px solid blue;">
+            <button onclick="upgrade(3)">Multigrade 3</button>
+            <p id="cost1">50</p>
+        </div>
+        <div style="border: 1px solid blue;">
+            <button onclick="upgrade(4)">Multigrade 4</button>
+            <p id="cost1">100</p>
+        </div>
+        <div style="border: 1px solid blue;">
+            <button onclick="upgrade(5)">Multigrade 5</button>
+            <p id="cost1">250</p>
+        </div>
+        
+        
+        
+        <!-- <button id="chicken" onclick="chicken()">🐔</button>
+        <button id="buttoner" onclick="nugget()">Nugget 10p</button> -->
+    </div>
+    <br>
+    <div id="options">
+        <button id="reset" onclick="reset()">RESET</button>
+    </div>
+</body>
+</html>

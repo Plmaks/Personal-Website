@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="script.php" method="POST">
+        <label for="imie" name="imie">Imie:</label>
+        <input type="text" placeholder="Wpisz imię" name="imie" required>
+
+        <label for="nazwisko">Wpisz nazwisko:</label>
+        <input type="text" placeholder="Wpisz nazwisko" name="nazwisko" required>
+
+        <label for="numer tel" name="tel">Wpisz numer tel:</label>
+        <input type="integer" name="tel">
+
+        <input type="submit" value="Dodaj">
+    </form>
+    <br>
+    <form action="script1.php" method="POST">
+        <label for="numer" name="numer">Wpisz numer zamówienia</label>
+        <input type="integer" name="numer" required>
+
+        <label for="pracownik" name="pracownik">Wpisz nazwę pracownika</label>
+        <input type="text" name="pracownik" required>
+
+        <input type="submit" value="Dodaj zamówienia">
+    </form>
+</body>
+</html>

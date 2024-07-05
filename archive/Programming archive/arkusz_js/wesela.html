@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="top">
+        <img src="obraczki.png" alt="">
+        <h1>Dom Weselny zorganizuje wesele dla ciebie</h1>
+        <img src="obraczki.png" alt="">
+    </div>
+
+    <div class="left1">
+        <h2>Dom Weselny</h2>
+        <p>ul. Przemysłowa 5</p>
+        <p>Kalisz</p>
+        <a href="obraczki.png"><p>Pobierz logo</p></a>
+    </div>
+
+    <div class="left2">
+        <h2>Oferujemy</h2>
+        <ul>
+            <li>Wesela</li>
+            <li>Bankiety</li>
+            <li>Konferencje</li>
+        </ul>
+    </div>
+
+    <div class="left3"> 
+        <a href="regulamin.txt"><p>czytaj regulamin</p></a>
+    </div>
+
+    <div class="content">
+        <h2>Ile będzie kosztowało moje wesele?</h2>
+        <div style="display: flex; align-items: center; margin-left: 42.5%;">
+            <p>Podaj liczbę gości: </p>
+            <input type="number" id="goście">
+        </div>
+        <div style="display: flex; align-items:center; margin-left: 45%;">
+            <input type="checkbox" id="poprawinami">
+            <p>Wesele z poprawinami?</p>
+        </div>
+        <button onclick="wesele()">Oblicz koszt</button>
+        <p id="koszt">Cena: </p>
+    </div>
+
+    <div class="footer">
+        <i><p>Stronę internetową opracował: 0000000000000000</p></i>
+    </div>
+</body>
+</html>

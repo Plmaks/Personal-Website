@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    border: 5px gray solid;
+    overflow: hidden;
+}
+
+.header {
+    border: 5px gray solid;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    border: 5px gray solid;
+    background-color: lightgray;
+}
+
+.footer {
+    border: 5px gray solid;
+    background-color: black;
+    color: white;
+}
+
+.pallet-wrapper {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 25%;
+    height: 100%;
+}
+
+.pallet-wrapper > * {
+    background-color: blue;
+    border: 1px white solid;
+    padding: 10px;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.button-wrapper > * {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-wrapper > * {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    padding: 5px;
+}

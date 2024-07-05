@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <script src="js.js"></script>
+
+    <form action="">
+        <p>Wpisz imię postaci</p>
+        <input type="text" id="nazwa" value="Bezimmienny">
+        <p>Wybierz klasę</p>
+        <select id="klasa">
+            <option value="Wojownik">Wojownik</option>
+            <option value="Łucznik">Łucznik</option>
+            <option value="Mag">Mag</option>
+            <option value="Asasyn">Asasyn</option>
+        </select>
+        <p>Wybierz startową umiejętność</p>
+        <div>
+            <input type="radio" id="skill1" name="skill" value="Trzesięnie ziemi">Trzesięnie Ziemi
+            <input type="radio" id="skill2" name="skill" value="Zatruta strzałka">Zatruta Strzałka
+            <input type="radio" id="skill3" name="skill" value="Kula ognia">Kula Ognia
+            <input type="radio" id="skill4" name="skill" value="Niewidzialność">Niewidzialność
+        </div>
+        <p>Wybierz portret postaci</p>
+        <img onclick="nextpage1()" id="wojownik_png" src="wojownik.png" alt=""> <img onclick="nextpage2()" id="łucznik_png" src="łucznik.png" alt=""> <img onclick="nextpage3()" id="mag_png" src="mag.png" alt=""> <img onclick="nextpage4()" id="asasyn_png" src="asasyn.png" alt="">
+
+    </form>
+</body>
+</html>

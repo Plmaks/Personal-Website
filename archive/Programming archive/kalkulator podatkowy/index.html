@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <script src="javascript.js"></script>
+
+    <input onclick="Ogólna()" type="radio" name="forma_opodatkowania" id="forma_opodatkowania1" value="ogólna">Ogólna
+    <input onclick="Ryczałtu()" type="radio" name="forma_opodatkowania" id="forma_opodatkowania2" value="ryczałtu">Ryczałtu
+    <input onclick="Liniowa()" type="radio" name="forma_opodatkowania" id="forma_opodatkowania3" value="liniowa">Liniowa
+    <br>
+    <input type="text" name="dochód" id="dochód" placeholder="Wpisz miesięczny dochód">
+    <br>
+    <select onchange="Podatki1()" id="Ogólna" name="Ogólna">
+        <option value="0.88">12%</option>
+        <option value="0.68">32%</option>
+    </select>
+
+    <select onchange="Podatki2()" name="Ryczałtu" id="Ryczałtu">
+        <option value="0.83">17%</option>
+        <option value="0.85">15%</option>
+        <option value="0.86">14%</option>
+        <option value="0.875">12.5%</option>
+        <option value="0.9">10%</option>
+        <option value="0.0915">8.5%</option>
+        <option value="0.045">5.5%</option>
+        <option value="0.97">3%</option>
+        <option value="0.98">2%</option>
+    </select>
+
+    <select onchange="Podatki3()" name="Liniowa" id="Liniowa">
+        <option value="0.81">19%</option>
+        <option value="0.81">19%</option>
+    </select>
+
+    <img id="kasa" class="kasa" src="money.gif" alt=""> <img id="brak_kasy" class="brak_kasy" src="smutek.gif" alt="">
+</body>
+</html>

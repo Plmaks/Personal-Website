@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+<body>
+
+    <input type="text" id="1" placeholder="Wpisz liczbę">
+    <input type="text" id="2" placeholder="Wpisz liczbę">
+    <select id="opcje" onchange="calc2()">
+        <option value="+">Dodawanie</option>
+        <option value="-">Odejmowanie</option>
+        <option value="/">Dzielenie</option>
+        <option value="*">Mnożenie</option>
+        <option value="**">Potęgowanie</option>
+        <option value="%">Modulo</option>
+    </select>
+    <button class="obsolete" onclick="calc()">Calculate</button>
+    <br>
+    <br>
+    <label for="t3">Powielanie: </label>
+    <input type="text" id="t3" name="t3" type="number">
+    <button type="button" onclick="calc3()">Powiel</button>
+    <br>
+    <br>
+    <button onclick="funkcja()">Hello</button>
+    <br>
+    <br>
+    <label for="por">Porównanie: </label>
+    <input type="number" name="por" id="t4">
+    <button onclick="funkcja2()" type="button">1984</button>
+    <br>
+    <br>
+    <label for="wiek">Wiek: </label>
+    <input type="text" id="t5" name="wiek" placeholder="Wpisz rok urodzenia">
+    <button onclick="funkcja3()">Submit</button>
+    <br>
+    <br>
+    <label for="urodzenia">Rok urodzenia: </label>
+    <input type="text" id="t6" name="urodzenia" placeholder="Wpisz rok urodzenia">
+    <button onclick="funkcja4()">Submit</button>
+</body>
+</html>
