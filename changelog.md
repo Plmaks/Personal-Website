@@ -10,3 +10,9 @@
 - Changed folder structure
 - Fixed images not displaying in social_media.html
 - Finished 2 more subpages (journal.html & archive.html)
+
+08/07/2024
+- Fixed links to landing page on all pages
+- Re-wrote journal.html to host the first iteration of it's page layout (There is only a filler article in there for now)
+- Added warning to enable JS
+- Officially finished the first iteration of every single subpage

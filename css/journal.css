@@ -1,9 +1,13 @@
 body {
     margin: 0;
     background-image: linear-gradient(180deg, rgb(0, 0, 30), darkblue);
-    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
     color: darkcyan;
     list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -21,13 +25,6 @@ ul, ol {
     padding: 0;
 }
 
-#navbar {
-    padding-left: 30%;
-    display: flex;
-    align-items: center;
-    background-color: black;
-}
-
 a {
     text-decoration: none;
     color: cyan;
@@ -42,6 +39,53 @@ a:hover {
     cursor: pointer;
 }
 
-#filler {
-    margin-top: 42%;
+#content-wrapper {
+    background-color: black;
+    width: 75%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#content-wrapper > * {
+    font-size: 20px;
+}
+
+#header {
+    text-align: center;
+    background-color: black;
+    width: 75%;
+}
+
+#entry-list {
+    width: 105%;
+    margin-right: 10px;
+}
+
+#entry-wrapper {
+    margin-left: 20px;
+}
+
+#entry-start {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#entry {
+    background-color: black;
+    width: 75%;
+}
+
+#entry > * {
+    font-size: 20px;
+}
+
+#entry-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#date {
+    margin-top: 25px;
+    margin-bottom: 0;
 }
